@@ -32,6 +32,11 @@ To **alternately fetch accelerometer and gyroscope data** from two IMU sensors b
 | GND       | Ground       | ✅    | ✅    |
 
 ---
+## 🔌 Connection Diagram
+
+![Connection Diagram](connection.png)
+
+---
 
 ## 🔁 Logic Flow
 
@@ -47,4 +52,29 @@ To **alternately fetch accelerometer and gyroscope data** from two IMU sensors b
 
 - [SparkFun ICM-20948 Arduino Library](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary)
 
-Install it via Arduino Library Manager or place in `lib/`.
+---
+
+## 🖥️ Sample Output (Serial Monitor)
+
+Output from sensor 1
+0.02, -0.01, 9.81, 0.01, 0.02, 0.00
+Output from sensor 2
+0.01, 0.00, 9.79, 0.02, 0.01, -0.01
+
+---
+
+## 🔮 Future Improvements
+
+- Can be used in motion and orientation tracker
+- Synchronize data logging and timestamps
+- Add SD card or cloud upload support
+- Extend to 3+ sensors with a shift register or demux
+- Visualize motion using 3D rendering tools
+
+---
+
+## 👨‍💻 Author
+
+Soumyadeep Chakraborty
+
+---
